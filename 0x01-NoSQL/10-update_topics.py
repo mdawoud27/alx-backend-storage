@@ -5,8 +5,8 @@ from pymongo import collections
 
 
 def update_topics(
-        mongo_collection: collection, name: str, topics: List[str]
-) -> None:
+        mongo_collection: collection,
+        name: str, topics: List[str]) -> None:
     """
     function that changes all topics of a school document based on the name
     """
