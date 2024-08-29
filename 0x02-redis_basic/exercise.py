@@ -54,6 +54,7 @@ def replay(fn: Callable) -> None:
     for input, output in zip(inputs, outputs):
         print(f'{method_name}(*{input}) -> {output}')
 
+
 class Cache:
     """Cache Class for redis connection"""
 
